@@ -3,7 +3,7 @@
   <p>Клиентскую часть обоих сайтов и серверную часть развернул на одном IP-адресе, на Ubuntu с использованием<br/> Nginx прокси-сервера.</p>
 <p>
 &bull; Клиентская часть:<br/>
-  &nbsp;&nbsp;&nbsp;Оба сайта сверстаны на React (TypeScript, JQuery, React-Form, React-Router, Mobix, Redux, Scss, ООП);<br/>
+  &nbsp;&nbsp;&nbsp;Оба сайта сверстаны на React (TypeScript, JQuery, React-Form, React-Router, MobX, Redux, Scss, ООП);<br/>
 &bull; Серверная часть: <br/>
   &nbsp;&nbsp;&nbsp;Node.js (TypeScript, Express, Routing-Controllers, Sequelize, Postgres);<br/>
 &bull; Плюс дизайн.
@@ -12,7 +12,7 @@
 <div>
   <div>
     <p>1. https://storeexample.host/ - интернет магазин и зал единоборств.</p>
-    <p>&nbsp;&nbsp;&nbsp;Менеджер состояний Mobix.</p>
+    <p>&nbsp;&nbsp;&nbsp;Менеджер состояний MobX.</p>
     <p> &nbsp;&nbsp;&nbsp;Вход в качестве администратора и, его возможности:<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&bull; Name: Admin, Password: Admin*90<br/>
       &nbsp;&nbsp;&nbsp;&nbsp;&bull; Доступна страница админестратора: https://storeexample.host/admin/item;<br/>
