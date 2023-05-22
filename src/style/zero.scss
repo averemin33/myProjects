@@ -1,0 +1,131 @@
+$mw: 1400;
+$mw1: calc($mw + 12);
+$mw2: 1100;
+$mw3: calc(992 + 12);
+$mw4: 769;
+$mw5: 479;
+.container {
+  max-width: $mw + px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  @media (max-width: $mw1 + px) {
+    max-width: 1100px;
+  }
+  @media (max-width: $mw2 + px) {
+    max-width: 970px;
+  }
+  @media (max-width: $mw3 + px) {
+    max-width: 750px;
+  }
+  @media (max-width: $mw4 + px) {
+    max-width: none;
+    padding: 0px 10px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background: #edede6;
+  text-size-adjust: 100%;
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:action {
+  outline: none;
+}
+
+a:focus,
+a:action {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: var(--font-familyTwo);
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input {
+  display: block;
+  border-radius: 0 !important;
+  width: 100%;
+}
+
+.logo {
+  user-select: none;
+}
+
+input {
+  width: 100%;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}

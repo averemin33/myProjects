@@ -1,0 +1,63 @@
+$mw: 1400;
+$mw1: calc($mw + 12);
+$mw2: 1100;
+$mw3: calc(992 + 12);
+$mw4: 769;
+$mw5: 479;
+
+$graybright: #9d9d9d;
+$gray: #949494;
+$green1: #307041;
+$green2: #95ad9b;
+$green3: #c0d6c5;
+$red: #964a40;
+$grayold: rgb(51, 51, 51);
+$grayoldtwo: rgb(73, 73, 73);
+$fontFamily: 'PT Sans', sans-serif;
+$fontFamilyTwo: 'Lato', sans-serif;
+
+.after {
+  content: '';
+  position: absolute;
+}
+
+.svg {
+  svg {
+    width: 100%;
+    height: 100%;
+    fill: $grayoldtwo;
+  }
+}
+
+.compactdisc {
+  @extend .svg;
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    opacity: 1 !important;
+    svg {
+      animation: disc 0.5s linear 0s infinite;
+    }
+  }
+}
+
+@keyframes disc {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+%load {
+  background-image: url('../img/loading/loading.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  img {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

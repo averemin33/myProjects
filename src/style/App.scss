@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+:root {
+  --gray: #acacac;
+  --green1: #307041;
+  --green2: #95ad9b;
+  --green3: #c0d6c5;
+  --grayold: rgb(51, 51, 51);
+  --fontFamily: 'PT Sans', sans-serif;
+  --fontFamilyTwo: 'Lato', sans-serif;
+}

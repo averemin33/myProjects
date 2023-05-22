@@ -1,0 +1,40 @@
+@import 'src/style/variable.scss';
+.crumbway {
+  margin: 0 10px;
+  padding: 3em 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__title {
+    padding-right: 15px;
+  }
+  &__path {
+    padding-left: 35px;
+    padding-right: 15px;
+    position: relative;
+    height: auto;
+    &:after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      left: 0px;
+      width: 20px;
+      background-color: $gray;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &.path {
+    .crumbway__title {
+      cursor: pointer;
+      h2 {
+        color: $gray;
+
+        &:hover {
+          color: $grayoldtwo;
+        }
+      }
+    }
+  }
+}
