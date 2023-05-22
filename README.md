@@ -2,7 +2,7 @@
 <div>
   <p>Клиентскую часть обоих сайтов и серверную часть развернул на одном IP-адресе, на Ubuntu с использованием<br/> Nginx прокси-сервера.</p>
 <p>
-&bull; Клиенская часть:<br/>
+&bull; Клиентская часть:<br/>
   &nbsp;&nbsp;&nbsp;Оба сайта сверстаны на React (TypeScript, JQuery, React-Form, React-Router, Mobix, Redux, Scss, ООП);<br/>
 &bull; Серверная часть: <br/>
   &nbsp;&nbsp;&nbsp;Node.js (TypeScript, Express, Routing-Controllers, Sequelize, Postgres);<br/>
