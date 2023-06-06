@@ -11,7 +11,7 @@
   </div>
 <div>
   <div>
-    <p>1. https://storeexample.host/ - интернет магазин и зал единоборств.</p>
+    <p>1. https://fightgym.mype.host/ - интернет магазин и зал единоборств.</p>
     <p>&nbsp;&nbsp;&nbsp;Менеджер состояний MobX.</p>
     <p> &nbsp;&nbsp;&nbsp;Вход в качестве администратора и, его возможности:<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&bull; Name: Admin, Password: Admin*90<br/>
@@ -29,7 +29,7 @@
     </p>
   </div>
     <div>
-    <p>2.  https://storeexample.host/file/disc - файлообменник.</p>
+    <p>2.  https://disk.mype.host/disc/disc - файлообменник.</p>
     <p>&nbsp;&nbsp;&nbsp;Кроссбраузерный.<br/>
       &nbsp;&nbsp;&nbsp;Менеджер состояний Redux.</p>
      <p> &nbsp;&nbsp;&nbsp;Общие возможности:<br/>
